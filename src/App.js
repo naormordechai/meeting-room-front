@@ -44,7 +44,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="container">
       <input min={minDate} type="date" onChange={(e) => handlerDate(e.target.value)} />
       <button onClick={onSearch} disabled={!date}>Search</button>
       <Login />
